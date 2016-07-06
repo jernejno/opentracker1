@@ -1,8 +1,6 @@
 # opentracker-docker 
-[![Docker Pulls](https://img.shields.io/docker/pulls/lednerb/opentracker-docker.svg?maxAge=2592000&style=flat-square)]()
-[![Docker Stars](https://img.shields.io/docker/stars/lednerb/opentracker-docker.svg?maxAge=2592000&style=flat-square)]() 
-[![license](https://img.shields.io/github/license/lednerb/opentracker-docker.svg?maxAge=2592000&style=flat-square)]()
-[![GitHub stars](https://img.shields.io/github/stars/lednerb/opentracker-docker.svg?style=flat-square&label=Star&maxAge=2592000)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/lednerb/opentracker-docker.svg?maxAge=2592000&style=flat-square)]() [![Docker Stars](https://img.shields.io/docker/stars/lednerb/opentracker-docker.svg?maxAge=2592000&style=flat-square)]()
+[![GitHub stars](https://img.shields.io/github/stars/lednerb/opentracker-docker.svg?style=social&label=Star&maxAge=2592000)]() [![license](https://img.shields.io/github/license/lednerb/opentracker-docker.svg?maxAge=2592000&style=flat-square)]()   
 
 With this repo you can easily run your own instance of the opentracker for bitorrent.
 
@@ -51,3 +49,7 @@ After the docker image was successfully built you can start a container:
 
 ## How to blacklist some torrents
 Just follow the steps from obove but paste the info_hashes into the `blacklist.txt` file and uncomment line 41 in the `opentracker.conf` file.
+
+
+## Donations
+<a href="bitcoin:1Q9M8zpgkXicS8fAa4JZksqWVgYXnknoTU?amount=0.01&label=Donation%20for%20Lednerb&#39;s%20great%20work%20at%20opentracker-docker%20%3B-)" ><img src="https://img.shields.io/badge/Donate-via%20Bitcoins-orange.svg?style=flat-square"></a>
